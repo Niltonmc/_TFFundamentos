@@ -28,6 +28,10 @@ void MainGame::initLevel(){
 	player->init(1.0f,
 		levels[currentLevel]->getPlayerPosition(),
 		&_inputManager);
+	for (size_t i = 0; i < levels[currentLevel]->getZombiesPosition().size(); i++) {
+		allZombiesVector.push_back(new Zombie());
+		allZombiesVector.back()->Init(0.2f, levels[currentLevel]->getZombiesPosition()[i], 6);
+	}
 	_spriteBacth.init();
 }
 
@@ -59,10 +63,14 @@ void MainGame::draw() {
 
 	_spriteBacth.begin();
 	levels[currentLevel]->draw();
-	player->draw(_spriteBacth);
+	player->draw(_spriteBacth,1);
 
 	for (size_t i = 0; i < allSpritesVector.size(); i++){
 		allSpritesVector[i]->Draw(_spriteBacth);
+	}
+
+	for (size_t i = 0; i < allZombiesVector.size(); i++){
+		allZombiesVector[i]->draw(_spriteBacth, 2);
 	}
 
 	_spriteBacth.end();

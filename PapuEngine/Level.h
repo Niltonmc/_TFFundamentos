@@ -17,6 +17,7 @@ private:
 public:
 	Level(const string& filename);
 	glm::vec2 playerPosition;
+	glm::vec2 currentZombiePosition;
 	vector<glm::vec2> zombiesPosition;
 	glm::vec2 getPlayerPosition() const {
 		return playerPosition;

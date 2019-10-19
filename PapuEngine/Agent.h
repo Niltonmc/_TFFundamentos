@@ -15,7 +15,7 @@ public:
 	Agent();
 	glm::vec2 getPosition() const { return position; };
 	virtual void update() = 0;
-	void draw(SpriteBacth& spritebatch);
+	void draw(SpriteBacth& spritebatch, int type);
 	virtual ~Agent();
 };
 

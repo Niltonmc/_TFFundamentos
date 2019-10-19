@@ -69,6 +69,10 @@ void Level::parseLevel() {
 
 				break;
 			case 'Z':
+				levelData[y][x] = '.';
+				currentZombiePosition.x = x * TILE_WIDTH;
+				currentZombiePosition.y = y * TILE_WIDTH;
+				zombiesPosition.push_back(currentZombiePosition);
 				break;
 			case '.':
 				break;
