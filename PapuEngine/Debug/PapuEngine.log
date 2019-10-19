@@ -1,0 +1,7 @@
+﻿  MainGame.cpp
+c:\users\nilto\downloads\tffundajuegos\_tf-fundamentos-videojuegos\papuengine\spritegenerator.h(9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\nilto\downloads\tffundajuegos\_tf-fundamentos-videojuegos\papuengine\spritegenerator.h(10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\nilto\downloads\tffundajuegos\_tf-fundamentos-videojuegos\papuengine\maingame.cpp(89): warning C4244: 'argument': conversion from 'Sint32' to 'float', possible loss of data
+c:\users\nilto\downloads\tffundajuegos\_tf-fundamentos-videojuegos\papuengine\maingame.cpp(144): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\nilto\downloads\tffundajuegos\_tf-fundamentos-videojuegos\papuengine\maingame.cpp(147): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  PapuEngine.vcxproj -> C:\Users\nilto\Downloads\TFFundaJuegos\_tf-fundamentos-videojuegos\Debug\PapuEngine.exe
