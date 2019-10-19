@@ -1,7 +1,51 @@
-﻿  MainGame.cpp
-c:\users\nilto\downloads\tffundajuegos\_tf-fundamentos-videojuegos\papuengine\spritegenerator.h(9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-c:\users\nilto\downloads\tffundajuegos\_tf-fundamentos-videojuegos\papuengine\spritegenerator.h(10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-c:\users\nilto\downloads\tffundajuegos\_tf-fundamentos-videojuegos\papuengine\maingame.cpp(89): warning C4244: 'argument': conversion from 'Sint32' to 'float', possible loss of data
-c:\users\nilto\downloads\tffundajuegos\_tf-fundamentos-videojuegos\papuengine\maingame.cpp(144): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\nilto\downloads\tffundajuegos\_tf-fundamentos-videojuegos\papuengine\maingame.cpp(147): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  PapuEngine.vcxproj -> C:\Users\nilto\Downloads\TFFundaJuegos\_tf-fundamentos-videojuegos\Debug\PapuEngine.exe
+﻿  Agent.cpp
+  Camera2D.cpp
+  Error.cpp
+  GLS_Program.cpp
+  Human.cpp
+  ImageLoader.cpp
+c:\users\nilto\desktop\ciclo 7\fundamentos de teoría de juegos\_tf\_tffundamentos\papuengine\imageloader.cpp(36): warning C4244: '=': conversion from 'unsigned long' to 'float', possible loss of data
+c:\users\nilto\desktop\ciclo 7\fundamentos de teoría de juegos\_tf\_tffundamentos\papuengine\imageloader.cpp(37): warning C4244: '=': conversion from 'unsigned long' to 'float', possible loss of data
+  InputManager.cpp
+  IOManager.cpp
+c:\users\nilto\desktop\ciclo 7\fundamentos de teoría de juegos\_tf\_tffundamentos\papuengine\iomanager.cpp(15): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+c:\users\nilto\desktop\ciclo 7\fundamentos de teoría de juegos\_tf\_tffundamentos\papuengine\iomanager.cpp(18): warning C4244: '-=': conversion from 'std::streamoff' to 'int', possible loss of data
+  Level.cpp
+c:\users\nilto\desktop\ciclo 7\fundamentos de teoría de juegos\_tf\_tffundamentos\papuengine\level.cpp(67): warning C4244: '=': conversion from 'size_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\nilto\desktop\ciclo 7\fundamentos de teoría de juegos\_tf\_tffundamentos\papuengine\level.cpp(68): warning C4244: '=': conversion from 'size_t' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  main.cpp
+c:\users\nilto\desktop\ciclo 7\fundamentos de teoría de juegos\_tf\_tffundamentos\papuengine\spritegenerator.h(9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\nilto\desktop\ciclo 7\fundamentos de teoría de juegos\_tf\_tffundamentos\papuengine\spritegenerator.h(10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  MainGame.cpp
+c:\users\nilto\desktop\ciclo 7\fundamentos de teoría de juegos\_tf\_tffundamentos\papuengine\spritegenerator.h(9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\nilto\desktop\ciclo 7\fundamentos de teoría de juegos\_tf\_tffundamentos\papuengine\spritegenerator.h(10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\nilto\desktop\ciclo 7\fundamentos de teoría de juegos\_tf\_tffundamentos\papuengine\maingame.cpp(89): warning C4244: 'argument': conversion from 'Sint32' to 'float', possible loss of data
+c:\users\nilto\desktop\ciclo 7\fundamentos de teoría de juegos\_tf\_tffundamentos\papuengine\maingame.cpp(144): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\nilto\desktop\ciclo 7\fundamentos de teoría de juegos\_tf\_tffundamentos\papuengine\maingame.cpp(147): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  PapuEngine.cpp
+  picoPNG.cpp
+  Player.cpp
+  ResourceManager.cpp
+  Sprite.cpp
+  SpriteBacth.cpp
+c:\users\nilto\desktop\ciclo 7\fundamentos de teoría de juegos\_tf\_tffundamentos\papuengine\spritebacth.cpp(15): warning C4018: '<': signed/unsigned mismatch
+c:\users\nilto\desktop\ciclo 7\fundamentos de teoría de juegos\_tf\_tffundamentos\papuengine\spritebacth.cpp(44): warning C4018: '<': signed/unsigned mismatch
+c:\users\nilto\desktop\ciclo 7\fundamentos de teoría de juegos\_tf\_tffundamentos\papuengine\spritebacth.cpp(72): warning C4018: '<': signed/unsigned mismatch
+  SpriteGenerator.cpp
+c:\users\nilto\desktop\ciclo 7\fundamentos de teoría de juegos\_tf\_tffundamentos\papuengine\spritegenerator.h(9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\nilto\desktop\ciclo 7\fundamentos de teoría de juegos\_tf\_tffundamentos\papuengine\spritegenerator.h(10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  TextureCache.cpp
+  Window.cpp
+  Generating Code...
+  Compiling...
+  Zombie.cpp
+  Generating Code...
+  PapuEngine.vcxproj -> C:\Users\nilto\Desktop\Ciclo 7\Fundamentos de Teoría de Juegos\_TF\_TFFundamentos\Debug\PapuEngine.exe
