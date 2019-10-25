@@ -1,2 +1,5 @@
-﻿  Agent.cpp
-  PapuEngine.vcxproj -> C:\Users\nilto\Downloads\TFFundaJuegos - TA2\_tf-fundamentos-videojuegos\Debug\PapuEngine.exe
+﻿  MainGame.cpp
+c:\users\nilto\downloads\plataforma2.4\papuengine\maingame.cpp(32): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\nilto\downloads\plataforma2.4\papuengine\maingame.cpp(38): warning C4018: '<': signed/unsigned mismatch
+c:\users\nilto\downloads\plataforma2.4\papuengine\maingame.cpp(122): warning C4244: 'argument': conversion from 'Sint32' to 'float', possible loss of data
+  PapuEngine.vcxproj -> C:\Users\nilto\Downloads\Plataforma2.4\Debug\PapuEngine.exe
