@@ -10,10 +10,20 @@ Level::Level(const string& filename)
 	if (file.fail()) {
 		fatalError("fallo el archivo " + filename + " GAAAA");
 	}
+<<<<<<< Updated upstream
 	string tmp;
 	file >> tmp >> numHumans;
 	while (getline(file, tmp)) {
 		levelData.push_back(tmp);
+=======
+
+	std::string tmp;
+
+	file >> tmp >> _numHumans;
+	std::getline(file, tmp);
+	while (std::getline(file, tmp)) {
+		_levelData.push_back(tmp);
+>>>>>>> Stashed changes
 	}
 	parseLevel();
 }

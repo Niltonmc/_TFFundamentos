@@ -33,8 +33,17 @@ private:
 	Camera2D _camera;
 	SpriteBacth _spriteBacth;
 	InputManager _inputManager;
+<<<<<<< Updated upstream
 	vector<Level*> levels;
 	int currentLevel;
+=======
+	vector<Bullet> _bullets;
+	vector<Level*> _levels;
+	vector<Zombie*> _zombies;
+	vector<Human*>  _humans;
+	Player* _player;
+	int _currenLevel;
+>>>>>>> Stashed changes
 	void initLevel();
 	Player* player;
 	vector<Human*> humans;

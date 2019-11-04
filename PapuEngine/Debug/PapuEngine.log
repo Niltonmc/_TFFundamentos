@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ﻿  Agent.cpp
   Camera2D.cpp
   Error.cpp
@@ -49,3 +50,9 @@ c:\users\nilto\desktop\ciclo 7\fundamentos de teoría de juegos\_tf\_tffundament
   Zombie.cpp
   Generating Code...
   PapuEngine.vcxproj -> C:\Users\nilto\Desktop\Ciclo 7\Fundamentos de Teoría de Juegos\_TF\_TFFundamentos\Debug\PapuEngine.exe
+=======
+﻿  PlayScreen.cpp
+c:\users\nilto\desktop\fundamentos201902-master\papuengine\playscreen.cpp(92): warning C4244: 'argument': conversion from 'Sint32' to 'float', possible loss of data
+  PapuEngine.vcxproj -> C:\Users\nilto\Desktop\Fundamentos201902-master\Debug\PapuEngine.exe
+  PapuEngine.vcxproj -> C:\Users\nilto\Desktop\Fundamentos201902-master\Debug\PapuEngine.pdb (Partial PDB)
+>>>>>>> Stashed changes
