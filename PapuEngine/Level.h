@@ -3,29 +3,17 @@
 #include <vector>
 #include "SpriteBacth.h"
 
-
 using namespace std;
 
 const int TILE_WIDTH = 64;
-
 class Level
 {
+
 private:
-	vector<string> levelData;
-	int numHumans;
+	vector<string> _levelData;
+	int _numHumans;
 	void parseLevel();
 public:
-<<<<<<< Updated upstream
-	Level(const string& filename);
-	glm::vec2 playerPosition;
-	vector<glm::vec2> zombiesPosition;
-	glm::vec2 getPlayerPosition() const {
-		return playerPosition;
-	}
-	vector<glm::vec2> getZombiesPosition()const {
-		return zombiesPosition;
-	}
-=======
 	glm::vec2 _playerPosition;
 	std::vector<glm::vec2> _zombiesPosition;
 	glm::vec2 getPlayerPosition() const { 
@@ -52,11 +40,8 @@ public:
 	};
 
 	Level(const std::string& fileName);
->>>>>>> Stashed changes
 	void draw();
-	SpriteBacth spritebatch;
-	int GetWidth();
-	int GetHeight();
+	SpriteBacth _spriteBatch;
 	~Level();
 };
 

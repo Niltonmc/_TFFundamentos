@@ -1,10 +1,6 @@
 #include "Agent.h"
 #include "ResourceManager.h"
-<<<<<<< Updated upstream
-
-=======
 #include <algorithm>
->>>>>>> Stashed changes
 
 Agent::Agent(float agent_width, float agent_height, glm::vec2 position, std::string texture):
 	_agent_width(agent_width), _agent_height(agent_height), 
@@ -16,15 +12,6 @@ Agent::Agent(float agent_width, float agent_height, glm::vec2 position, std::str
 
 
 void Agent::draw(SpriteBacth& spritebatch) {
-<<<<<<< Updated upstream
-	static int textureID =
-		ResourceManager::getTexture("Textures/circle.png").id;
-	const glm::vec4 uvRect(0.0f, 0.0f, 1.0f, 1.0f);
-	glm::vec4 destRect(position.x, position.y, AGENT_WIDTH, AGENT_WIDTH);
-	spritebatch.draw(destRect, uvRect, textureID, 0.0f, color);
-}
-
-=======
 	_texture_id = ResourceManager::getTexture(_texturePath).id;
 	const glm::vec4 uvRect(0.0f, 0.0f, 1.0f, 1.0f);
 	ColorRGBA  color;
@@ -117,7 +104,6 @@ void Agent::collideWithTile(glm::vec2 tilePos) {
 		}
 	}*/
 }
->>>>>>> Stashed changes
 
 Agent::~Agent()
 {

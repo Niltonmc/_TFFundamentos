@@ -3,10 +3,6 @@
 
 class Human : public Agent
 {
-<<<<<<< Updated upstream
-public:
-	Human();
-=======
 protected:
 	glm::vec2 _direction;
 
@@ -16,7 +12,6 @@ public:
 	void update(const std::vector<std::string>& levelData,
 		std::vector<Human*>& humans,
 		std::vector<Zombie*>& zombies);
->>>>>>> Stashed changes
 	~Human();
 };
 

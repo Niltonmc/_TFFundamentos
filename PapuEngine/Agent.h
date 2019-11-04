@@ -3,29 +3,16 @@
 #include "SpriteBacth.h"
 #include "GLTexture.h"
 
-<<<<<<< Updated upstream
-const int AGENT_WIDTH = 60;
-=======
 
 class Zombie;
 class Human;
 
 /*const float AGENT_WIDTH = 60.0f;
 const float AGENT_RADIUS = AGENT_WIDTH / 2.0f;*/
->>>>>>> Stashed changes
 
 class Agent
 {
 protected:
-<<<<<<< Updated upstream
-	glm::vec2 position;
-	float speed;
-	Color color;
-public:
-	Agent();
-	glm::vec2 getPosition() const { return position; };
-	virtual void update() = 0;
-=======
 	glm::vec2 _position;
 	std::string _texturePath;
 	float _agent_width;
@@ -46,8 +33,9 @@ public:
 	virtual void update(float deltaTime, bool reloj) = 0;
 	virtual void changeTexture(std::string texturePath) = 0;
 	virtual std::string getTexture() = 0;
->>>>>>> Stashed changes
 	void draw(SpriteBacth& spritebatch);
+	bool collideWithLevel(const std::vector<std::string>& levelData);
 	virtual ~Agent();
+	bool collideWithAgent(Agent* agent);
 };
 

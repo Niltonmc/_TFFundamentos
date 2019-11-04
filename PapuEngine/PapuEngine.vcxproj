@@ -120,12 +120,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Agent.cpp" />
-<<<<<<< Updated upstream
-=======
     <ClCompile Include="App.cpp" />
     <ClCompile Include="Background.cpp" />
     <ClCompile Include="Button.cpp" />
->>>>>>> Stashed changes
     <ClCompile Include="Camera2D.cpp" />
     <ClCompile Include="EndScreen.cpp" />
     <ClCompile Include="Enemy.cpp" />
@@ -145,23 +142,16 @@
     <ClCompile Include="Ship.cpp" />
     <ClCompile Include="Sprite.cpp" />
     <ClCompile Include="SpriteBacth.cpp" />
-<<<<<<< Updated upstream
-    <ClCompile Include="SpriteGenerator.cpp" />
-=======
     <ClCompile Include="SpriteFont.cpp" />
->>>>>>> Stashed changes
     <ClCompile Include="TextureCache.cpp" />
     <ClCompile Include="Timing.cpp" />
     <ClCompile Include="Window.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Agent.h" />
-<<<<<<< Updated upstream
-=======
     <ClInclude Include="App.h" />
     <ClInclude Include="Background.h" />
     <ClInclude Include="Button.h" />
->>>>>>> Stashed changes
     <ClInclude Include="Camera2D.h" />
     <ClInclude Include="EndScreen.h" />
     <ClInclude Include="Enemy.h" />
@@ -183,11 +173,7 @@
     <ClInclude Include="Ship.h" />
     <ClInclude Include="Sprite.h" />
     <ClInclude Include="SpriteBacth.h" />
-<<<<<<< Updated upstream
-    <ClInclude Include="SpriteGenerator.h" />
-=======
     <ClInclude Include="SpriteFont.h" />
->>>>>>> Stashed changes
     <ClInclude Include="TextureCache.h" />
     <ClInclude Include="Timing.h" />
     <ClInclude Include="Vertex.h" />

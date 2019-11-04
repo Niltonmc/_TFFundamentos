@@ -1,13 +1,8 @@
 #include "Human.h"
+#include <random>
+#include <ctime>
+#include <glm\gtx\rotate_vector.hpp>
 
-<<<<<<< Updated upstream
-
-
-Human::Human()
-{
-}
-
-=======
 
 Human::Human()
 {
@@ -38,7 +33,6 @@ void Human::update(const std::vector<std::string>& levelData,
 			glm::rotate(_direction, ranRotate(randomEngine));
 	}
 }
->>>>>>> Stashed changes
 
 
 Human::~Human()
